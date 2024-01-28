@@ -40,41 +40,18 @@ FORMAT = "int16"
 warnings.filterwarnings("ignore", category=UserWarning, module="whisper.transcribe")
 
 language_map = {
-    "European Spanish (Spain)": ("Español Europeo", "Buenos días, ¿cómo estás hoy?"),
-    "Spanish": ("Español", "¿Qué onda? ¿Todo bien?"),
-    "Caribbean Spanish (Cuba, Puerto Rico, Dominican Republic)": (
-        "Español Caribeño",
-        "Hace mucho calor hoy, ¿verdad?",
-    ),
-    "Central American Spanish (Guatemala, Honduras, Nicaragua)": (
-        "Español Centroamericano",
-        "Vamos a la playa este fin de semana.",
-    ),
-    "Andean Spanish (Peru, Bolivia, Ecuador)": (
-        "Español Andino",
-        "La comida aquí es muy deliciosa.",
-    ),
-    "Rioplatense Spanish (Argentinna and Uruguay)": (
-        "Español Rioplatense",
-        "¿Me pasás la yerba, por favor?",
-    ),
-    "Chilean Spanish": ("Español Chileno", "¿Cachai lo que te estoy diciendo?"),
-    "Colombian Spanish": ("Español Colombiano", "¿Quieres ir a tomar un tinto?"),
-    "Venezuelan Spanish": (
-        "Español Venezolano",
-        "Vamos a comer unas arepas esta noche.",
-    ),
-    "Canary Islands Spanish": ("Español Canario", "El cielo está muy despejado hoy."),
-    "Mandarin Chinese": ("普通话", "你好，你吃饭了吗？"),
-    "French": ("Français", "Bonjour, où se trouve la bibliothèque?"),
-    "German": ("Deutsch", "Kannst du mir helfen, bitte?"),
-    "Portuguese": ("Português", "Bom dia, como você está?"),
-    "Russian": ("Русский", "Как дела? Всё хорошо?"),
-    "Japanese": ("日本語", "こんにちは、元気ですか？"),
-    "Italian": ("Italiano", "Dove posso trovare un buon ristorante?"),
-    "Arabic": ("العربية", "مرحبا، كيف حالك اليوم؟"),
+    "English": ("english", "hello how are you?"),
     "Hindi": ("हिंदी", "नमस्ते, आप कैसे हैं?"),
-    "Korean": ("한국어", "안녕하세요, 잘 지내세요?"),
+    "Bengali": ("বাংলা", "হ্যালো, আপনি কেমন আছেন?"),
+    "Tamil": ("தமிழ்", "வணக்கம் எப்படி இருக்கிறாய்?"),
+    "Kannada": ("ಕನ್ನಡ", "ಹಲೋ ಹೇಗಿದ್ದೀಯ?"),
+    "Assamese": ("অসমীয়া", "নমস্কাৰ আপুনি কেনে আছে?"),
+    "Gujarati": ("ગુજરાતી", "હેલો તમે કેમ છો?"),
+    "Marathi": ("मराठी", "नमस्कार कसा आहेस?"),
+    "Malayalam": ("മലയാളം", "ഹലോ, നിങ്ങൾക്ക് സുഖമാണോ?"),
+    "Telugu": ("తెలుగు", "హలో ఎలా ఉన్నారు?"),
+    "Punjabi": ("ਪੰਜਾਬੀ", "ਹੈਲੋ ਤੁਸੀ ਕਿਵੇਂ ਹੋ?"),
+
 }
 
 
